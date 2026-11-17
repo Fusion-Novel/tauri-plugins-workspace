@@ -144,10 +144,10 @@ impl<'de> serde::Deserialize<'de> for FilePath {
             where
                 E: serde::de::Error,
             {
-                FilePath::from_str(s).map_err(|e| {
+                FilePath::from_str(s).map_err(|_| {
                     serde::de::Error::invalid_value(
                         serde::de::Unexpected::Str(s),
-                        "a file path",
+                        &"a file path",
                     )
                 })
             }

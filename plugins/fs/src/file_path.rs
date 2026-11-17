@@ -1,3 +1,4 @@
+
 // Copyright 2019-2023 Tauri Programme within The Commons Conservancy
 // SPDX-License-Identifier: Apache-2.0
 // SPDX-License-Identifier: MIT
@@ -146,7 +147,7 @@ impl<'de> serde::Deserialize<'de> for FilePath {
                 FilePath::from_str(s).map_err(|e| {
                     serde::de::Error::invalid_value(
                         serde::de::Unexpected::Str(s),
-                        &e.to_string().as_str(),
+                        "a file path",
                     )
                 })
             }

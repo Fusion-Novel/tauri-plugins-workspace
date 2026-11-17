@@ -1,18 +1,18 @@
 {
   "tauri": {
-    "repository": "LeenHawk/tauri",
+    "repository": "Fusion-Novel/tauri",
     "revision": "44ae4230ab7ce2f7361a957f50e4fb1df580ce49"
   },
   "wry": {
-    "repository": "LeenHawk/wry",
+    "repository": "Fusion-Novel/wry",
     "revision": "9feaf086c3bd02ca14a8a1492f87e7a7714ea2fb"
   },
   "ability": {
-    "repository": "LeenHawk/openharmony-ability",
-    "revision": "c5f0a450f7bbfedc52160f2fbeaa04886e0eb34b"
+    "repository": "Fusion-Novel/openharmony-ability",
+    "revision": "2b01629129e5607b99b5084fb5b3a6533cdd56fa"
   },
   "tao": {
-    "repository": "tauri-apps/tao",
+    "repository": "Fusion-Novel/tao",
     "revision": "813572fbe582005e2fb513458bc212842745ceab"
   }
 }
